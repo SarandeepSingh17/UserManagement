@@ -25,6 +25,7 @@ Explain briefly what your project does and its main features.
 - Searchable table in the User Details tab.
 - Enable a click action on any user in the search results to open a popup/modal with
 a button to generate a report for the selected user.
+- Tabbed Layout to switch between two components using React Router and Routes
 
 ## Getting Started
 
