@@ -23,7 +23,8 @@ Explain briefly what your project does and its main features.
 - User Details tab to display user information.
 - Account Creation tab with a form for creating new accounts.
 - Searchable table in the User Details tab.
-- ...
+- Enable a click action on any user in the search results to open a popup/modal with
+a button to generate a report for the selected user.
 
 ## Getting Started
 
