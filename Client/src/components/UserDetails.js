@@ -14,7 +14,7 @@ const UserDetails = () => {
     axios.get('http://localhost:5000/api/users')
       .then((response) => setUsers(response.data))
       .catch((error) => console.error('Error fetching data:', error));
-  }, []); // Empty dependency array ensures the effect runs once after initial render
+  }, [users]); // Empty dependency array ensures the effect runs once after initial render
 
   const handleSearch = (e) => {
     setSearchTerm(e.target.value);
