@@ -21,6 +21,7 @@ Explain briefly what your project does and its main features.
 ## Features
 
 - User Details tab to display user information.
+  <img src="https://github.com/SarandeepSingh17/UserManagement/blob/main/UserDetails.png"/>
 - Account Creation tab with a form for creating new accounts.
 - Searchable table in the User Details tab.
 - Enable a click action on any user in the search results to open a popup/modal with
