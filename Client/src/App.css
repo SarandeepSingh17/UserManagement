@@ -1,30 +1,39 @@
-/* TabbedLayout.css */
-.tabbed-layout {
+/* App.css */
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.app-container {
   max-width: 800px;
-  margin: 20px auto;
-  background-color: #fff;
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.tabs {
-  display: flex;
-  justify-content: space-around;
-  border-bottom: 1px solid #ddd;
-}
-
-.tab-btn {
-  padding: 15px 20px;
-  cursor: pointer;
-  transition: background-color 0.3s;
-}
-
-.tab-btn:hover {
-  background-color: #f4f4f4;
-}
-
-.tab-content {
-  display: none;
+  margin: 0 auto;
   padding: 20px;
 }
 
+nav {
+  background-color: #333;
+  padding: 10px;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+li {
+  margin-right: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #ffd700; /* Change the color on hover */
+}
