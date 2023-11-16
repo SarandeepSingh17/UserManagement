@@ -12,8 +12,7 @@ This project is a web application featuring a user management dashboard with two
 - [Usage](#usage)
 - [Folder Structure](#folder-structure)
 - [Technologies Used](#technologies-used)
-- [Contributing](#contributing)
-- [License](#license)
+
 
 ## Introduction
 
@@ -69,6 +68,7 @@ project-root/
 |-- ...
 
 Technologies Used
+
 React.js
 Node.js
 ...
